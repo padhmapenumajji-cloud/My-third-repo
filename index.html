@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Mall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin: 1rem;
+            width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to City Shopping Mall</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shops</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="products">
+        <div class="product">
+            <h3>Men's Jacket</h3>
+            <img src="https://via.placeholder.com/150" alt="Jacket">
+            <p>$59.99</p>
+        </div>
+        <div class="product">
+            <h3>Smartphone</h3>
+            <img src="https://via.placeholder.com/150" alt="Phone">
+            <p>$499.00</p>
+        </div>
+        <div class="product">
+            <h3>Running Shoes</h3>
+            <img src="https://via.placeholder.com/150" alt="Shoes">
+            <p>$89.50</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 City Shopping Mall. All rights reserved.
+    </footer>
+
+</body>
+</html>
